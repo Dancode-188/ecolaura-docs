@@ -76,19 +76,13 @@ GET /api/v1/products
 
 
 
-| **Parameter** | **Type** | **Description** |
-
-|-----------|------|-------------|
-
-| page | integer | Page number for pagination. Default is 1. |
-
-| per_page | integer | Number of items per page. Default is 20, max is 100. |
-
-| category | string | Filter by product category. |
-
-| min_score | float | Minimum sustainability score (0-100). |
-
-| sort | string | Sort by: 'price', 'score', 'name'. Prefix with '-' for descending order. |
+| **Parameter** | **Type** | **Description**                                                           |
+|---------------|----------|---------------------------------------------------------------------------|
+| page          | integer  | Page number for pagination. Default is 1.                                 |
+| per_page      | integer  | Number of items per page. Default is 20, max is 100.                      |
+| category      | string   | Filter by product category.                                               |
+| min_score     | float    | Minimum sustainability score (0-100)                                      |
+| sort          | string   | Sort by: 'price', 'score', 'name',. Prefix with '-' for descending order. |
 
 
 
